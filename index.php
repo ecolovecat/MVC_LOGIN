@@ -16,7 +16,7 @@
             <a href="login.php">Login</a>
 
             <?php else: ?>
-                <a href="./controllers/User.php?q=logout"><li>Logout</li></a>
+                <a href="./controllers/Users.php?q=logout"><li>Logout</li></a>
                 <?php endif; ?>
             
         </ul>
