@@ -1,0 +1,218 @@
+body{
+	font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	height: 100%;
+}
+
+.container{
+	max-width: 600px;
+	height: 100%;
+}
+
+.container::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 600px;
+	background-image: url(https://static-gcdn.basecdn.net/account/image/background.png);
+	background-position: bottom right;
+	background-size: cover;
+	height: 100%;
+}
+
+.main{
+	max-width: 550px;
+	height: 100%;
+	padding: 20px 50px;
+	position: relative;
+}
+
+.title{
+	text-align: center;
+	border-bottom: 2px solid #eee;
+}
+
+.title_text{
+	font-size: 25px;
+	font-weight: 500;
+	margin: 0;
+	padding: 35px 0 8px 0;
+}
+
+
+.title_message{
+	font-size: 14px;
+	color: #888;
+	margin: 0 0 20px 0;
+}
+
+.content{
+	margin-top: 25px;
+}
+
+.label{
+	font-size: 14px;
+	font-weight: bold;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+.input-box{
+	width: 480px;
+	font-size: 16px;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #bbb;
+	border-radius: 5px;
+}
+
+.input-box:focus{
+	box-shadow: 0 0 5px #2bd14e;
+	border: 1px solid #2bd14e;
+	outline: none;
+}
+
+.redirect-link,
+.redirect-link:hover{
+	color: #267cde;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.label-group{
+	display: flex;
+	justify-content: space-between;
+}
+
+.row-save{
+	margin: 20px 0;
+}
+
+.label-save{
+	font-size: 13px;
+	color: #888;
+}
+
+.btnSubmit{
+	width: 100%;
+	background-color: #2bd14e;
+	color: #fff;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 10px 0;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.btnSubmit:hover{
+	opacity: 80%;
+}
+
+.out-auth{
+	text-align: center;
+	margin: 20px 0;
+	border-bottom: 2px solid #eee;
+}
+
+.option_message{
+	font-size: 13px;
+	color: #888;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.btnGroup{
+	display: flex;
+	justify-content: space-between;
+}
+
+.btnOutAuth{
+	display: inline-block;
+	width: 160px;
+	font-size: 13px;
+	text-decoration: none;
+	color: #267cde;
+	background-color: #eee;
+	border-radius: 3px;
+	font-weight: 500;
+	padding: 10px 0;
+	margin-bottom: 50px;
+}
+
+.btnOutAuth:hover{
+	color: white;
+	background-color: #267cde;
+}
+
+.register_account{
+	text-align: center;
+}
+
+.modal-container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .7);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	display: none;
+}
+
+.modal-box{
+	position: relative;
+	background-color: white;
+	width: 420px;
+	border-radius: 3px;
+	padding: 0;
+}
+
+.close-icon{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #888;
+	cursor: pointer;
+	padding: 10px 13px;
+	font-size: 14px;
+}
+
+.close-icon:hover{
+	border-radius: 50%;
+	border: 2px solid #eee;
+}
+
+.message-group{
+	width: 100%;
+	padding: 40px 0;
+	font-size: 15px;
+	display: flex;
+	align-items: center;
+	border-bottom: 2px solid #eee;
+}
+
+.help-icon{
+	font-size: 40px;
+	color: #555;
+	padding: 0 20px 0 30px;
+}
+
+.btnAccept{
+	width: 100%;
+	background: white;
+	border: none;
+	padding: 15px;
+	color: #c65144;
+	font-weight: bold;
+	cursor: pointer;
+	border-bottom-left-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.btnAccept:hover{
+	background-color: #eee;
+}
